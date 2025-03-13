@@ -22,7 +22,7 @@
 #
 
 # Define root source folder (CHANGE THIS TO YOUR DESIRED SOURCE FOLDER)
-root_source_folder="/path/to/the/theme-park/root/folder"
+root_source_folder="/mnt/cache/appdata/theme-park/www/css"
 
 
 # -------------------- Start of Script --------------------
@@ -62,7 +62,7 @@ done
 
 # Update import references in CSS files so the the files get correctly loaded on the client
 echo "Updating import references..."
-find "$main_destination_folder" -type f -name "*.css" -exec sed -i 's|@import url("/css/|@import url("/webGui/styles/theme-park/css/|g' {} +
+find "$main_destination_folder" -type f -name "*.css" -exec sed -i 's|@import url("/theme.park/css/|@import url("/webGui/styles/theme-park/css/|g' {} +
 
 echo "Reference update complete."
 
