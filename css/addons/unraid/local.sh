@@ -14,7 +14,7 @@
 # in your HTML head (Custom styling (advanced)) to include the copied CSS files using the "Theme Engine" plugin:
 #
 # <!-- Example for Theme Engine plugin -->
-# </style>
+# </style>22
 #   <link type="text/css" rel="stylesheet" href="/webGui/styles/theme-park/css/base/unraid/nord.css"/>
 #
 # Tip: You can use the "User Scripts" plugin in Unraid to schedule this script to run
